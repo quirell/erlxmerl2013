@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT pokemony (pokemon)+ >
+<!ELEMENT pokemon        (zycie,ewolucja,atak?,odpornosc?,podatnosc?) >
+<!ELEMENT zycie      	 (#PCDATA)>
+<!ELEMENT ewolucja       (#PCDATA)>
+<!ELEMENT atak   	 (#PCDATA)>
+<!ELEMENT odpornosc      (#PCDATA)>
+<!ELEMENT podatnosc      (#PCDATA)>
+<!ATTLIST pokemon 
+	nazwa NMTOKEN #REQUIRED
+	typ NMTOKEN #REQUIRED
+	generacja NMTOKEN #REQUIRED >
+<!ATTLIST odpornosc typ NMTOKEN #REQUIRED>
+<!ATTLIST podatnosc typ NMTOKEN #REQUIRED>
+		
+
+
