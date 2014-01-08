@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE pokemony SYSTEM "pokemony.dtd">
+<pokemony>
+<pokemon nazwa="Charizard" generacja="I" typ="ogniowy">
+<zycie>
+120
+</zycie>
+<ewolucja>
+Charmeleon
+</ewolucja>
+<atak>
+100
+</atak>
+<odpornosc typ="kamień">
+-30
+</odpornosc>
+<podatnosc typ="woda">
+x2
+</podatnosc>
+</pokemon>
+<pokemon nazwa="Bulbasaur" generacja="I" typ="trawiasty">
+<zycie>
+60
+</zycie>
+<ewolucja>
+jajko
+</ewolucja>
+<atak>
+10x(number of heads)
+</atak>
+<podatnosc typ="ogień">
++10
+</podatnosc>
+</pokemon>
+</pokemony>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<pokemon nazwa="Pikachu" typ="elektryczny" generacja="I">
+<zycie>60</zycie>
+<atak>10</atak>
+<podatnosc typ="ogień">x2</podatnosc>
+<ewolucja>jajko</ewolucja>
+</pokemon>
+
